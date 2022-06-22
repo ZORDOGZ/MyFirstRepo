@@ -10,14 +10,14 @@ while choice=="y" or choice=="Y":
         choice=input("Want to play again (Y/N): ")
         compchoice = randint(1,100)
     elif userinp>compchoice:
-            if userinp-compchoice>10:
-                print("lower")
-            elif userinp-compchoice<=10:
-                print("slightly lower")
+        if userinp-compchoice>10:
+            print("lower")
+        elif userinp-compchoice<=10:
+            print("slightly lower")
     elif userinp<compchoice:
-            if compchoice-userinp>10:
-                print("higher")
-            elif compchoice-userinp<=10:
-                print("slightly higher")
+        if compchoice-userinp>10:
+            print("higher")
+        elif compchoice-userinp<=10:
+            print("slightly higher")
 
         
